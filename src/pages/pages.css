@@ -1,0 +1,164 @@
+.register-login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 9vw;
+  margin-left: 28vw;
+  width: 20vw;
+  height: 40vh;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.create-recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  width: 50vw;
+  margin-left: 25vw;
+}
+
+.create-recipe form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-recipe input {
+  border-radius: 4px;
+  height: 1vw;
+  margin-bottom: 3vh;
+  margin-top: .7vh;
+}
+
+.create-recipe textarea {
+  border: solid;
+  border-radius: 4px;
+  height: 15vw;
+  margin-bottom: 3vh;
+  margin-top: .7vh;
+}
+
+.create-recipe button {
+  width: 10vw;
+  margin-top: 5vh;
+  margin-bottom: 12vh;
+}
+
+.recipe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.recipe-container ul {
+  list-style-type: none;
+}
+
+.recipe-container li {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  padding: 1vw 2vw 1vw;
+  margin-bottom: 5vw;
+  min-width: 50vw;
+}
+
+.recipe-container img {
+  margin-bottom: 1vw;
+  max-height: 40vw;
+  width: auto;
+}
+
+.recipe-container a {
+  text-decoration: none;
+  color: black;
+  border-bottom: solid;
+  font-size: 1.6vw;
+  transition-duration: 1s;
+}
+
+.recipe-container a:hover {
+  color: rgb(180, 180, 180);
+  transition-duration: .2s;
+}
+
+.recipe-container h2 {
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+.recipe-container button {
+  border: none;
+  width: 4vw;
+  font-size: 1vw;
+  height: auto;
+  margin-bottom: 1vw;
+}
+
+.recipe-container button:disabled {
+  background-color: gray;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.register-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  text-decoration: none;
+}
+
+.register-button a {
+  color: black;
+  margin-left: .4vw;
+  text-decoration: none;
+  font-size: 1.25vw;
+  transition-duration: .12s;
+  border-bottom-style: solid;
+}
+
+.register-button a:hover {
+  color: rgb(207, 207, 207);
+  transition-duration: .12s;
+}
+
+h2 {
+  font: 100;
+  font-size: 4vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  padding: .8vw;
+  font-size: 1vw;
+  border-radius: 10px;
+  font: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  color: white;
+  background-color: #e83b2f;
+  border-radius: 4.2px;
+  transition-duration: .18s;
+}
+
+label {
+  font-weight: bolder;
+  font-size: 1.4vw;
+  margin-bottom: .1vh;
+  font: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 1.25vw;
+}
