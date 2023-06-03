@@ -61,9 +61,13 @@ export const Home = () => {
             </div>
             <img src={recipe.imageUrl } alt={recipe.name} />
             <div>
-              <a href={recipe.link} target="_blank">Link to Recipe</a>
+              <h3>Alterations:</h3>
+              <p>{recipe.ingredients}</p>
             </div>
             <p>Cooking Time: {recipe.cookingTime} minutes</p>
+            <div>
+              <a href={recipe.link} target="_blank">Link to Recipe</a>
+            </div>
             <button
                 onClick={() => saveRecipe(recipe._id)}
                 disabled={isRecipeSaved(recipe._id)}

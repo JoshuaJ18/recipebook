@@ -23,7 +23,7 @@ export const Recipes = () => {
 
   return (
     <div className="recipe-container">
-      <h1>Community Recipes</h1>
+      <h1>Your Saved Recipes</h1>
       <ul>
         {savedRecipes.map((recipe) => (
           <li key={recipe._id}>
@@ -32,9 +32,13 @@ export const Recipes = () => {
             </div>
             <img src={recipe.imageUrl } alt={recipe.name} />
             <div>
-              <a href={recipe.link} target="_blank">Link to Recipe</a>
+              <h3>Alterations:</h3>
+              <p>{recipe.ingredients}</p>
             </div>
             <p>Cooking Time: {recipe.cookingTime} minutes</p>
+            <div className="link">
+              <a href={recipe.link} target="_blank">Link to Recipe</a>
+            </div>
           </li>
         ))}
       </ul>
